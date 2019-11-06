@@ -1,0 +1,28 @@
+baseURL = "https://example.com/"
+languageCode = "en"
+defaultContentLanguage = "en"
+title = "cogito view"
+theme = "eva"
+disableKinds = ["page", "section", "taxonomy", "taxonomyTerm"]
+ 
+[Author]
+    name = "shahid"
+
+[params]
+
+    [[params.links]]
+        iconset = "fas"
+        icon = "envelope"
+        title = "E-mail"
+        url = "mailto:elcostacr7@gmail.com"
+
+    [[params.links]]
+        icon = "github"
+        title = "Github"
+        url = "https://github.com/"
+
+    [[params.links]]
+        icon = "twitter"
+        title = "Twitter"
+        url = "https://twitter.com/"
+      
